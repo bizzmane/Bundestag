@@ -1,0 +1,13 @@
+name: Test
+title: Test
+username:
+account: bitzmannapps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4499271
+bundleId: 4931842
+url: https://bitzmannapps.shinyapps.io/Test/
+when: 1629194735.88386
+lastSyncTime: 1629194735.88386
+asMultiple: FALSE
+asStatic: FALSE
