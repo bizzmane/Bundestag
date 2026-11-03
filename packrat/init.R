@@ -68,7 +68,7 @@ local({
   ## or when explicitly asked for on the command line
   if (interactive() || "--bootstrap-packrat" %in% commandArgs(TRUE)) {
 
-    needsRestore <- "--bootstrap-packrat" %in% commandArgs(TRUE)
+    needsRestore <- interactive() || "--bootstrap-packrat" %in% commandArgs(TRUE)
 
     message("Packrat is not installed in the local library -- ",
             "attempting to bootstrap an installation...")
